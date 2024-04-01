@@ -28,7 +28,9 @@ const Hero = () => {
                         </div>
                         <Socials containerStyles={"flex gap-6 mx-auto xl:mx-0"} iconsStyles={"text-foreground text-[22px] hover:text-primary hover:scale-125 transition-all"} />
                     </div>
-                    <div className="hidden xl:flex relative">image</div>
+                    <div className="hidden xl:flex relative">
+                        <div className="bg-hero_back dark:bg-hero_back2 w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
+                    </div>
                 </div>
                 <div className="hidden md:flex">
                     <FaArrowTurnDown className="text-3xl absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce" />
