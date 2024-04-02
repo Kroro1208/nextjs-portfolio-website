@@ -160,7 +160,7 @@ const About = () => {
                                                                     <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px]
                                                                     group-hover:translate-y-[84px] transition-all duration-500"></div>
                                                                 </div>
-                                                                <div>
+                                                                <div className="dark:text-white">
                                                                     <div className="font-semibold text-lg text-muted-foreground leading-none mb-4 ">{company}</div>
                                                                     <div className="text-lg leading-none mb-4">{role}</div>
                                                                     <div className="text-base font-medium">{years}</div>
@@ -186,7 +186,7 @@ const About = () => {
                                                                     <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px]
                                                                     group-hover:translate-y-[84px] transition-all duration-500"></div>
                                                                 </div>
-                                                                <div>
+                                                                <div className="dark:text-white">
                                                                     <div className="font-semibold text-lg text-muted-foreground leading-none mb-4 ">{university}</div>
                                                                     <div className="text-lg leading-none mb-4">{qualification}</div>
                                                                     <div className="text-base font-medium">{years}</div>
