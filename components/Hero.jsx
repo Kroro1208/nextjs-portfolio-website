@@ -3,6 +3,10 @@ import { Download, Send } from "lucide-react";
 import { FaArrowTurnDown } from "react-icons/fa6";
 import Link from "next/link";
 import Socials from "./Socials";
+import DevImg from "./DevImg";
+import Badge from "./Badge";
+import { GrTechnology } from "react-icons/gr";
+
 
 
 
@@ -29,7 +33,32 @@ const Hero = () => {
                         <Socials containerStyles={"flex gap-6 mx-auto xl:mx-0"} iconsStyles={"text-foreground text-[22px] hover:text-primary hover:scale-125 transition-all"} />
                     </div>
                     <div className="hidden xl:flex relative">
-                        <div className="bg-hero_back dark:bg-hero_back2 w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
+                        <Badge
+                            containerStyles="absolute top-[15%] -left-[40rem]"
+                            icon={<GrTechnology />}
+                            endCountNum={3}
+                            badgeText="Years Of Experience" />
+                        <div className="bg-hero_back opacity-70 dark:bg-hero_back2 w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2">
+                            <DevImg containerStyles="w-[510px] h-[462px] bg-no-repeat relative bg-bottom" imgSrc="/hero/sns.png" />
+                        </div>
+                        <Badge
+                            containerStyles="absolute top-[90%] -left-[35rem]"
+                            icon={<GrTechnology />}
+                            endCountNum={6}
+                            endCountText="k"
+                            badgeText="Finished Projects" />
+                        <div className="bg-hero_back opacity-70 dark:bg-hero_back2 w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2">
+                            <DevImg containerStyles="w-[510px] h-[462px] bg-no-repeat relative bg-bottom" imgSrc="/hero/sns.png" />
+                        </div>
+                        <Badge
+                            containerStyles="absolute top-[55%] -left-[10rem]"
+                            icon={<GrTechnology />}
+                            endCountNum={9}
+                            endCountText="k"
+                            badgeText="Happy Clients" />
+                        <div className="bg-hero_back opacity-70 dark:bg-hero_back2 w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2">
+                            <DevImg containerStyles="w-[510px] h-[462px] bg-no-repeat relative bg-bottom" imgSrc="/hero/sns.png" />
+                        </div>
                     </div>
                 </div>
                 <div className="hidden md:flex">

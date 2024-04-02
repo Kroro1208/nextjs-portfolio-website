@@ -77,8 +77,8 @@ module.exports = {
       backgroundImage: {
         hero: 'url(/hero/hero-bg.png)',
         hero_back: 'url(/hero/shape-2-light.svg)',
-        hero_back2: 'url(/hero/shape-2-dark.svg)'
-
+        hero_back2: 'url(/hero/shape-2-dark.svg)',
+        main: "url(/hero/director.png)"
       }
     },
   },
