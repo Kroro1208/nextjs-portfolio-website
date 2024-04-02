@@ -6,7 +6,8 @@ import Socials from "./Socials";
 import DevImg from "./DevImg";
 import Badge from "./Badge";
 import { GrTechnology } from "react-icons/gr";
-
+import { FaPeopleGroup } from "react-icons/fa6";
+import { FaBusinessTime } from "react-icons/fa6";
 
 
 
@@ -38,21 +39,15 @@ const Hero = () => {
                             icon={<GrTechnology />}
                             endCountNum={3}
                             badgeText="Years Of Experience" />
-                        <div className="bg-hero_back opacity-70 dark:bg-hero_back2 w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2">
-                            <DevImg containerStyles="w-[510px] h-[462px] bg-no-repeat relative bg-bottom" imgSrc="/hero/sns.png" />
-                        </div>
                         <Badge
                             containerStyles="absolute top-[90%] -left-[35rem]"
-                            icon={<GrTechnology />}
+                            icon={<FaBusinessTime />}
                             endCountNum={6}
                             endCountText="k"
                             badgeText="Finished Projects" />
-                        <div className="bg-hero_back opacity-70 dark:bg-hero_back2 w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2">
-                            <DevImg containerStyles="w-[510px] h-[462px] bg-no-repeat relative bg-bottom" imgSrc="/hero/sns.png" />
-                        </div>
                         <Badge
-                            containerStyles="absolute top-[55%] -left-[10rem]"
-                            icon={<GrTechnology />}
+                            containerStyles="absolute top-[55%] -right-[10rem]"
+                            icon={<FaPeopleGroup />}
                             endCountNum={9}
                             endCountText="k"
                             badgeText="Happy Clients" />
