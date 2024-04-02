@@ -40,19 +40,19 @@ const Hero = () => {
                             endCountNum={3}
                             badgeText="Years Of Experience" />
                         <Badge
-                            containerStyles="absolute top-[90%] -left-[35rem]"
+                            containerStyles="absolute top-[70%] -left-[45rem]"
                             icon={<FaBusinessTime />}
                             endCountNum={6}
                             endCountText="k"
                             badgeText="Finished Projects" />
                         <Badge
-                            containerStyles="absolute top-[55%] -right-[10rem]"
+                            containerStyles="absolute top-[80%] -right-[1rem]"
                             icon={<FaPeopleGroup />}
                             endCountNum={9}
                             endCountText="k"
                             badgeText="Happy Clients" />
-                        <div className="bg-hero_back opacity-70 dark:bg-hero_back2 w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2">
-                            <DevImg containerStyles="w-[510px] h-[462px] bg-no-repeat relative bg-bottom" imgSrc="/hero/sns.png" />
+                        <div className="bg-hero_back opacity-70 dark:bg-hero_back2 w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-1">
+                            <DevImg containerStyles="w-[700px] h-[462px] relative -left-[5rem]" imgSrc="/hero/spider.png" />
                         </div>
                     </div>
                 </div>
