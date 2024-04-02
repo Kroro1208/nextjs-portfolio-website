@@ -1,3 +1,3 @@
 # 経過
 ## Aboutコンポーネント実装
-!(AboutPage)[/nextPortfolio.gif]
+![AboutPage](/nextPortfolio.gif)
