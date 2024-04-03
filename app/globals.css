@@ -88,7 +88,7 @@
 }
 
 .yellow {
-  @apply z-10 w-[288px] h-[68px] bg-green-100 dark:backdrop-blur-[44px]
+  @apply z-10 w-[288px] h-[68px] bg-sky-100 dark:backdrop-blur-[44px]
   shadow-2xl p-4 rounded-[10px] flex items-center gap-4;
 }
 
