@@ -78,16 +78,16 @@ const skillData = [
         title: "skills",
         data: [
             {
-                name: "HTML, CSS, JavaScript, React/Next.js, TypeScript"
-            },
-            {
                 name: "Front-end Development"
             },
             {
-                name: "PHP/Laravel"
+                name: "HTML, CSS, JavaScript, React/Next.js, TypeScript"
             },
             {
                 name: "Back-end Development"
+            },
+            {
+                name: "PHP/Laravel"
             },
 
         ]
@@ -144,6 +144,7 @@ const About = () => {
                                             My Awesome Journey
                                         </h3>
                                         <div className="grid md:grid-cols-2 gap-8">
+                                            {/* Experience */}
                                             <div className="flex flex-col gap-6">
                                                 <div className="flex gap-4 items-center text-[22px] text-primary mb-4">
                                                     <Briefcase />
@@ -170,6 +171,7 @@ const About = () => {
                                                     })}
                                                 </div>
                                             </div>
+                                            {/* Education */}
                                             <div className="flex flex-col gap-6">
                                                 <div className="flex gap-4 items-center text-[22px] text-primary mb-4">
                                                     <GraduationCap size={28} />
@@ -199,7 +201,34 @@ const About = () => {
                                         </div>
                                     </div>
                                 </TabsContent>
-                                <TabsContent value="skills">スキル</TabsContent>
+                                <TabsContent value="skills">
+                                    <div className="text-center xl:text-left">
+                                        <h3 className="h3 mb-8">Tools I Use Everyday</h3>
+                                        <div className="mb-16">
+                                            <h4 className="text-xl font-semibold mb-1">Skills</h4>
+                                            <div className="border-b border-border mb-4"></div>
+                                            <div>
+                                                {getData(skillData, "skills").data.map((item, index) => {
+                                                    const { name } = item;
+                                                    const divClass = `w-2/4 text-center xl:text-left mx-auto xl:mx-0 ${index % 2 == 0 ? "text-primary text-xl font-bold" : ""}`;
+                                                    return (
+                                                        <div className={divClass}
+                                                            key={index}
+                                                        >
+                                                            <div className="font-medium mb-3">{name}</div>
+                                                        </div>
+                                                    )
+                                                })}
+                                            </div>
+                                        </div>
+                                        {/* <div>
+                                            <h4 className="text-xl font-semibold mb-2 xl:text-left mx-auto xl:mx-0">
+                                                Tools
+                                            </h4>
+                                            <div className="border-b border-border mb-4"></div>
+                                        </div> */}
+                                    </div>
+                                </TabsContent>
                             </div>
                         </Tabs>
                     </div>
