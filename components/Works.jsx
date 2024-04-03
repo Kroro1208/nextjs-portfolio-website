@@ -3,8 +3,8 @@ import Link from "next/link";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from 'swiper/modules';
-import { Button } from "./ui/button";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Button } from "./ui/button";
 import ProjectCard from "./ProjectCard";
 
 const projectData = [
@@ -106,7 +106,7 @@ const Works = () => {
                         modules={[Pagination]}
                         pagination={{ clickable: true }}
                     >
-                        {projectData.slice(0, 4).map((project, index) => {
+                        {projectData.slice(0, 6).map((project, index) => {
                             return (
                                 <SwiperSlide key={index}>
                                     <ProjectCard project={project} />
