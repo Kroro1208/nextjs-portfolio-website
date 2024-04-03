@@ -10,74 +10,74 @@ import ProjectCard from "./ProjectCard";
 const projectData = [
     {
         image: "/work/3.png",
-        category: "react js",
+        category: "react",
         name: "Next Website",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque at tempore temporibus illo aliquid. Dolore sint ullam, impedit voluptatum consequuntur placeat nam illum necessitatibus labore, aliquid ad, accusamus voluptate dolorem.",
-        Link: "/",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        link: "/",
         github: "github.com",
     },
     {
         image: "/work/4.png",
-        category: "Next js",
-        name: "Next Event Book System",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque at tempore temporibus illo aliquid. Dolore sint ullam, impedit voluptatum consequuntur placeat nam illum necessitatibus labore, aliquid ad, accusamus voluptate dolorem.",
-        Link: "/",
+        category: "Next.js",
+        name: "Book System",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        link: "/",
         github: "github.com",
     },
     {
         image: "/work/2.png",
         category: "react",
-        name: "Elegant Modern Website",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque at tempore temporibus illo aliquid. Dolore sint ullam, impedit voluptatum consequuntur placeat nam illum necessitatibus labore, aliquid ad, accusamus voluptate dolorem.",
-        Link: "/",
+        name: "Modern Website",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. ",
+        link: "/",
         github: "github.com",
     },
     {
         image: "/work/1.png",
         category: "TypeScript",
         name: "Household App",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque at tempore temporibus illo aliquid. Dolore sint ullam, impedit voluptatum consequuntur placeat nam illum necessitatibus labore, aliquid ad, accusamus voluptate dolorem.",
-        Link: "/",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. ",
+        link: "/",
         github: "github.com",
     },
     {
         image: "/work/2.png",
         category: "Laravel",
         name: "Event Book Website",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque at tempore temporibus illo aliquid. Dolore sint ullam, impedit voluptatum consequuntur placeat nam illum necessitatibus labore, aliquid ad, accusamus voluptate dolorem.",
-        Link: "/",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. ",
+        link: "/",
         github: "github.com",
     },
     {
         image: "/work/3.png",
         category: "Laravel",
         name: "Blog App",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque at tempore temporibus illo aliquid. Dolore sint ullam, impedit voluptatum consequuntur placeat nam illum necessitatibus labore, aliquid ad, accusamus voluptate dolorem.",
-        Link: "/",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. ",
+        link: "/",
         github: "github.com",
     },
     {
         image: "/work/4.png",
         category: "TypeScript",
         name: "Discord Clone",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque at tempore temporibus illo aliquid. Dolore sint ullam, impedit voluptatum consequuntur placeat nam illum necessitatibus labore, aliquid ad, accusamus voluptate dolorem.",
-        Link: "/",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. ",
+        link: "/",
         github: "github.com",
     },
     {
         image: "/work/1.png",
         category: "react",
         name: "Modern Website",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque at tempore temporibus illo aliquid. Dolore sint ullam, impedit voluptatum consequuntur placeat nam illum necessitatibus labore, aliquid ad, accusamus voluptate dolorem.",
-        Link: "/",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. .",
+        link: "/",
         github: "github.com",
     },
     {
         image: "/work/2.png",
         category: "Laravel",
         name: "Todo App",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque at tempore temporibus illo aliquid. Dolore sint ullam, impedit voluptatum consequuntur placeat nam illum necessitatibus labore, aliquid ad, accusamus voluptate dolorem.",
-        Link: "/",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. ",
+        link: "/",
         github: "github.com",
     },
 ];
@@ -98,11 +98,11 @@ const Works = () => {
                     <Swiper className="h-[480px]"
                         slidesPerView={1}
                         breakpoints={{
-                            640: {
+                            780: {
                                 slidesPerView: 2
                             }
                         }}
-                        spaceBetween={30}
+                        spaceBetween={15}
                         modules={[Pagination]}
                         pagination={{ clickable: true }}
                     >
